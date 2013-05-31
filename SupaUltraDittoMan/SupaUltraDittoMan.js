@@ -59,7 +59,7 @@ var supaUltraDittoMan = new cmbot({
      * users of the rules, how the queue works, etc.
      */
     messages: [
-        'Welcome to Sup Home! Let\'s play some Music!'
+        'Welcome to Sup Homie! Let\'s play some Music!'
     ],
 
     /*
