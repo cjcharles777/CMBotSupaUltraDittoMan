@@ -13,5 +13,5 @@ var fs      = require('fs');
 
  console.log('Lets bring out the DJ\'s!!!!');
 //var cmbot = require('cmbot');
-var dj708 = require('./708HipHopMaster/708HipHopMaster.js');
+//var dj708 = require('./708HipHopMaster/708HipHopMaster.js');
 var SupaUltraDittoMan = require('./SupaUltraDittoMan/SupaUltraDittoMan.js');
