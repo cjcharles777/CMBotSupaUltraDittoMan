@@ -25,7 +25,7 @@ var supaUltraDittoMan = new cmbot({
     modpm_superusers: true, // Set to false to exclude superusers from modpm
     allow_mobile_djs: true, // Set to false to require users to be whitelisted in order to DJ from a mobile device (mods are exempt)
     lastfm: {
-        enabled: false,
+        enabled: true,
         username: 'ultradittoman',
         password: 'fbfg2868',
         api_key: '84f64c67f681c264b77659ddd90ad04f',
