@@ -26,8 +26,8 @@ var supaUltraDittoMan = new cmbot({
     allow_mobile_djs: true, // Set to false to require users to be whitelisted in order to DJ from a mobile device (mods are exempt)
     lastfm: {
         enabled: false,
-        username: 'dj708',
-        password: '7d0j8',
+        username: 'ultradittoman',
+        password: 'fbfg2868',
         api_key: '84f64c67f681c264b77659ddd90ad04f',
         api_secret: '8f3961f2e563fe930e468105cf899a8f',
         session_key: false,
@@ -42,7 +42,7 @@ var supaUltraDittoMan = new cmbot({
         url_shorten_api_key: 'AIzaSyCgS_W9UZYBhl3d8cLxxPYo1IaX6WzwJbc' // Go ahead and use this api key
     },
     mysql: {
-        enabled: false, // Change to true and fill out details below to enable mysql logging of song plays
+        enabled: true, // Change to true and fill out details below to enable mysql logging of song plays
         host: 'donkeigy.endofinternet.net',
         database: 'DittoBotNation',
         user: 'dj708',
@@ -59,6 +59,13 @@ var supaUltraDittoMan = new cmbot({
      * users of the rules, how the queue works, etc.
      */
     messages: [
+        'Welcome to Sup Homie! Let\'s play some Music! \n'+
+        'Rules: \n'+
+        '1 - A DJ\'s set is only 5 songs.\n'+
+        '2 - If you DJin you have 30 mins to talk, like, hate, whatever. Basically don\'t set and forget\n'+
+        '3 - Just type in /addme if you want to be in the queue\n'+
+        '4 - If a song is lamed by more than 4 people. Moderators will ban it!!!\n'+
+        '5 - Just play some hot shit!\n', 
         'Welcome to Sup Homie! Let\'s play some Music!'
     ],
 
