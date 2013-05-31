@@ -1,0 +1,37 @@
+{
+  "name": "BotLand",
+  "version": "1.0.0",
+  "description": "Turntable.fm Bot Maker",
+  "keywords": [
+    "Turntable",
+    "Node.js",
+    "Bot",
+    "Music"
+  ],
+  "author": {
+    "name": "Don Keigy",
+    "email": "donkeigy@boun.cr",
+    "url":  "http://www.openshift.com/"
+  },
+  "homepage": "http://www.openshift.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://gitub.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+  "cmbot"   :  "0.9.7",
+  "express": "3.1.x",
+  "mysql": "0.9.6"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
